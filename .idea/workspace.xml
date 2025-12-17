@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67d4fc61-82cc-41f5-a291-80c29b27d347" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/ObservableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/ObserverImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/ObserverImpl2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/observer/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/observer/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/Observer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +73,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="observer" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="observer" />
       <recent name="strategy" />
       <recent name="decorator" />
       <recent name="decorator.decorators" />
@@ -96,7 +106,7 @@
       <workItem from="1759787795661" duration="53000" />
       <workItem from="1760104201585" duration="1796000" />
       <workItem from="1765995172973" duration="2976000" />
-      <workItem from="1765998190401" duration="366000" />
+      <workItem from="1765998190401" duration="4259000" />
     </task>
     <servers />
   </component>

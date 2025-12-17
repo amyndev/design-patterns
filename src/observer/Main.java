@@ -1,37 +1,27 @@
 package observer;
 
-import strategy.Context;
-import strategy.DefaultStrategyImpl;
-import strategy.Strategy;
-
-import java.lang.reflect.InvocationTargetException;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        Context context = new Context();
-        Scanner scanner = new Scanner(System.in);
-        Map<String, Strategy> strategyMap = new HashMap<>();
-        Strategy strategy;
-        while (true) {
-            System.out.println("Tapez le numero d'une strategie : ");
-            String str = scanner.nextLine();
-            strategy = strategyMap.get(str);
-            if (strategy == null) {
-                try {
-                    System.out.println("Creation d'un nouvel objet de StrategyImpl" + str);
-                    strategy = (Strategy) Class.forName("strategy.StrategyImpl" + str).getConstructor().newInstance();
-                    strategyMap.put(str, strategy);
-                } catch (ClassNotFoundException | NoSuchMethodException | InvocationTargetException | 
-                         InstantiationException | IllegalAccessException e) {
-                    System.out.println("Strategie " + str + " n'existe pas, utilisation de la strategie par defaut");
-                    strategy = new DefaultStrategyImpl();
-                }
+        ObservableImpl observable = new ObservableImpl();
+        Observer o1 = new ObserverImpl1();
+        Observer o2 = new ObserverImpl2();
+
+        observable.subscribe(o1);
+        observable.subscribe(o2);
+
+        // Anonymous object
+        observable.subscribe(obs -> {
+            if (obs instanceof ObservableImpl o) {
+                System.out.println("\n### OBS Impl 3 ###");
+                System.out.printf("Res = %.2f%n", o.getState() * Math.cos(o.getState()));
+                System.out.println("##################");
             }
-            context.setStrategy(strategy);
-            context.effectuerOperation();
-        }
+        });
+
+        observable.setState(60);
+        observable.setState(50);
+
+        observable.unsubscribe(o2);
+        observable.setState(40);
     }
 }
