@@ -7,28 +7,30 @@ import adapter.computer.*;
 public class Main {
     public static void main(String[] args) {
         UniteCentral uniteCentral = new UniteCentral();
-        uniteCentral.setVGA(new Ecran());
-        uniteCentral.print("Bonjour");
-        uniteCentral.setVGA(new VideoProjecteur());
-        uniteCentral.print("Bonjour");
+        System.out.println("=== VGA devices ===");
+        setAndPrint(uniteCentral, new Ecran(), "Bonjour");
+        setAndPrint(uniteCentral, new VideoProjecteur(), "Bonjour");
 
-
+        System.out.println("=== HDMI via Adapter (composition) ===");
         HdmiVgaAdapterComposition hdmiVgaAdapter = new HdmiVgaAdapterComposition();
         hdmiVgaAdapter.setHdmi(new TV());
-        uniteCentral.setVGA(hdmiVgaAdapter);
-        hdmiVgaAdapter.print("Adapter Design Pattern");
+        setAndPrint(uniteCentral, hdmiVgaAdapter, "Adapter Design Pattern");
 
+        System.out.println("=== HDMI via Adapter (héritage) ===");
         HdmiVgaAdapterHeritage hdmiVgaAdapterHeritage = new HdmiVgaAdapterHeritage();
-        uniteCentral.setVGA(hdmiVgaAdapterHeritage);
-        hdmiVgaAdapter.print("TEST");
+        setAndPrint(uniteCentral, hdmiVgaAdapterHeritage, "Test heritage adapter");
 
+        System.out.println("=== SuperVP direct (implémente VGA & HDMI) ===");
+        setAndPrint(uniteCentral, new SuperVP(), "Hello");
 
-        uniteCentral.setVGA(new SuperVP());
-        uniteCentral.print("Hello");
-
+        System.out.println("=== SuperVP via composition adapter ===");
         HdmiVgaAdapterComposition hdmiVgaAdapter2 = new HdmiVgaAdapterComposition();
         hdmiVgaAdapter2.setHdmi(new SuperVP());
-        uniteCentral.setVGA(hdmiVgaAdapter2);
-        uniteCentral.print("Bonsoir");
+        setAndPrint(uniteCentral, hdmiVgaAdapter2, "Bonsoir");
+    }
+
+    private static void setAndPrint(UniteCentral uc, VGA device, String message) {
+        uc.setVGA(device);
+        uc.print(message);
     }
 }

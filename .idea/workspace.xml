@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67d4fc61-82cc-41f5-a291-80c29b27d347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/adapter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/adapter/HdmiVgaAdapterComposition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/adapter/HdmiVgaAdapterHeritage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/computer/Ecran.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/computer/HDMI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/computer/SuperVP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/computer/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/computer/UniteCentral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/computer/VGA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/computer/VideoProjecteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Boisson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Boisson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Deca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Deca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Espresso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Sumatra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Sumatra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/decorator/decorators/Caramel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/decorator/decorators/Caramel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/decorator/decorators/Chocolat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/decorator/decorators/Chocolat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/decorator/decorators/Decorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/decorator/decorators/Decorator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/boissons/Boisson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/boissons/Boisson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/boissons/Deca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/boissons/Deca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/boissons/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/boissons/Espresso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/boissons/Sumatra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/boissons/Sumatra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/decorators/Caramel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/decorators/Caramel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/decorators/Chocolat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/decorators/Chocolat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/decorators/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/decorators/Decorator.java" afterDir="false" />
-    </list>
+    <list default="true" id="67d4fc61-82cc-41f5-a291-80c29b27d347" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +107,7 @@
       <workItem from="1766523222180" duration="6000" />
       <workItem from="1766523239818" duration="2793000" />
       <workItem from="1766763790188" duration="1709000" />
-      <workItem from="1766930497178" duration="1019000" />
+      <workItem from="1766930497178" duration="1767000" />
     </task>
     <servers />
   </component>
