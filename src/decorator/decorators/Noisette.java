@@ -9,6 +9,6 @@ public class Noisette extends Decorator{
     }
     public double cout() { return 0.4 +boisson.cout() ; }
     public String getDescription() {
-        return boisson.getDescription()+", Caramel";
+        return boisson.getDescription()+", Noisette";
     }
 }

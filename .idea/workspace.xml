@@ -5,14 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67d4fc61-82cc-41f5-a291-80c29b27d347" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/ObservableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/ObserverImpl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/ObserverImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/adapter/HdmiVgaAdapterComposition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/adapter/HdmiVgaAdapterHeritage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/computer/Ecran.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/computer/HDMI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/computer/SuperVP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/computer/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/computer/UniteCentral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/computer/VGA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/computer/VideoProjecteur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/observer/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/observer/Observer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Boisson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Boisson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Deca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Deca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Espresso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Sumatra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/decorator/boissons/Sumatra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/decorator/decorators/Caramel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/decorator/decorators/Caramel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/decorator/decorators/Chocolat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/decorator/decorators/Chocolat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/decorator/decorators/Decorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/decorator/decorators/Decorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/boissons/Boisson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/boissons/Boisson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/boissons/Deca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/boissons/Deca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/boissons/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/boissons/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/boissons/Sumatra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/boissons/Sumatra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/decorators/Caramel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/decorators/Caramel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/decorators/Chocolat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/decorators/Chocolat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/decorators/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/decorators/Decorator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,26 +40,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "amyndev"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;amyndev&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/amyndev/design-patterns.git",
-    "accountId": "56e4862e-5bdc-4e86-a7d6-6cb984e4c73a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/amyndev/design-patterns.git&quot;,
+    &quot;accountId&quot;: &quot;56e4862e-5bdc-4e86-a7d6-6cb984e4c73a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -61,7 +79,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/amyn/IdeaProjects/design-patterns",
+    "last_opened_file_path": "/home/amyn/IdeaProjects/design-patterns/src/adapter/computer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +92,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="strategy2" />
       <recent name="observer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/adapter/computer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="observer" />
@@ -86,8 +108,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
-        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-IU-253.28294.334" />
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
       </set>
     </attachedChunks>
   </component>
@@ -106,7 +128,13 @@
       <workItem from="1759787795661" duration="53000" />
       <workItem from="1760104201585" duration="1796000" />
       <workItem from="1765995172973" duration="2976000" />
-      <workItem from="1765998190401" duration="4259000" />
+      <workItem from="1765998190401" duration="6282000" />
+      <workItem from="1766071387297" duration="421000" />
+      <workItem from="1766155464384" duration="5000" />
+      <workItem from="1766523222180" duration="6000" />
+      <workItem from="1766523239818" duration="2793000" />
+      <workItem from="1766763790188" duration="1709000" />
+      <workItem from="1766930497178" duration="1019000" />
     </task>
     <servers />
   </component>
